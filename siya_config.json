@@ -1,0 +1,65 @@
+{
+  "asr": {
+    "model_name": "nvidia/parakeet-tdt-0.6b-v3",
+    "device": "cuda",
+    "torch_dtype": "float16",
+    "batch_size": 1,
+    "max_length": 30,
+    "chunk_duration": 5,
+    "fallback_model": "openai/whisper-large-v3-turbo"
+  },
+  "llm": {
+    "model_name": "Qwen/Qwen3-0.6B",
+    "device": "cuda",
+    "torch_dtype": "float16",
+    "max_new_tokens": 20,
+    "temperature": 0.7,
+    "do_sample": true,
+    "top_p": 0.9,
+    "repetition_penalty": 1.1,
+    "context_length": 512
+  },
+  "tts": {
+    "model_name": "fishaudio/openaudio-s1-mini",
+    "device": "cuda", 
+    "torch_dtype": "float16",
+    "voice_speed": 1.2,
+    "fallback_tts": "system"
+  },
+  "performance": {
+    "enable_tensorrt": true,
+    "enable_quantization": true,
+    "batch_processing": true,
+    "max_conversation_history": 3,
+    "target_response_time_ms": 100,
+    "memory_optimization": true,
+    "use_optimizer": true
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "chunk_size": 1024,
+    "channels": 1,
+    "format": "float32",
+    "vad_threshold": 0.5,
+    "silence_duration": 1.0
+  },
+  "personality": {
+    "name": "SIYA",
+    "full_name": "Simply Intended Yet Astute Assistant",
+    "greeting": "Hello! I'm SIYA, your Simply Intended Yet Astute Assistant. How can I help you today?",
+    "tone": "helpful, concise, and naturally conversational",
+    "response_style": "brief and direct",
+    "personality_traits": ["intelligent", "helpful", "quick-witted", "friendly"]
+  },
+  "optimization": {
+    "torch_compile": false,
+    "flash_attention": true,
+    "gradient_checkpointing": false,
+    "torch_backends": {
+      "cublas_enabled": true,
+      "cudnn_enabled": true,
+      "cudnn_benchmark": true,
+      "cudnn_deterministic": false
+    }
+  }
+}

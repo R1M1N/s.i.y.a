@@ -1,0 +1,83 @@
+# S.I.Y.A Enhanced - MCP Server Dependencies
+# Core S.I.Y.A system with full system integration capabilities
+
+# Core AI and ML frameworks (CUDA optimized for RTX 4080)
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+torch-audio>=2.1.0
+
+# CUDA and GPU acceleration
+nvidia-ml-py>=12.535.108
+GPUtil>=1.4.0
+
+# Transformers ecosystem optimized for speed
+transformers>=4.35.0
+accelerate>=0.24.0
+optimum>=1.14.0
+auto-gptq>=0.5.0
+bitsandbytes>=0.41.0
+
+# Fast speech recognition (ASR)
+faster-whisper>=0.10.0
+SpeechRecognition>=3.10.0
+
+# Text-to-Speech (TTS)
+TTS>=0.15.0
+piper-tts>=1.2.0
+
+# Audio processing and I/O
+librosa>=0.10.1
+soundfile>=0.12.1
+audioread>=3.0.1
+sounddevice>=0.4.6
+pyaudio>=0.2.11
+
+# Performance optimization
+psutil>=5.9.6
+uvloop>=0.19.0  # Fast event loop
+asyncio-throttle>=1.0.2
+
+# Monitoring and utilities
+tqdm>=4.66.0
+loguru>=0.7.2
+rich>=13.7.0
+colorama>=0.4.6
+
+# HTTP client/server for MCP communication
+httpx>=0.25.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Data processing and validation
+pydantic>=2.5.0
+python-multipart>=0.0.6
+
+# Web scraping and HTML parsing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+requests>=2.31.0
+
+# Database for memory server
+sqlite3  # Built into Python
+
+# Browser automation (optional - for browser MCP server)
+playwright>=1.40.0
+
+# Development and debugging
+jupyter>=1.0.0
+ipython>=8.14.0
+
+# Web search APIs (optional)
+# google-api-python-client>=2.100.0  # Google Search API
+# azure-cognitiveservices-search-websearch>=1.0.0  # Bing Search API
+# brave-search>=1.0.0  # Brave Search API
+
+# Advanced optimizations (optional)
+# flash-attn>=2.5.0  # Uncomment for flash attention (faster LLM)
+# tensorrt>=10.0.0  # Uncomment if you have TensorRT
+# torch-tensorrt>=2.1.0  # PyTorch TensorRT integration
+
+# Platform-specific audio drivers (usually pre-installed)
+# pulseaudio  # Ubuntu/Linux audio system
+# alsa-utils  # Audio system utilities
