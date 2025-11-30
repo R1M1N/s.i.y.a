@@ -1,8 +1,8 @@
 # 🤖 S.I.Y.A Enhanced - Simply Intended Yet Astute Assistant
 
-> **Intelligent AI Assistant with Real-time Intelligence** | *Sub-100ms responses with Iron Man Jarvis-style capabilities*
+> **Intelligent AI Assistant with Real-time Intelligence** | *Sub-100ms responses*
 
-**S.I.Y.A Enhanced** (Simply Intended Yet Astute Assistant) is a cutting-edge conversational AI system that combines **lightning-fast responses** with **intelligent real-time capabilities**. S.I.Y.A now provides **Jarvis-like intelligence** including intelligent time-based greetings, real-time data fetching, general web search, activity monitoring, and persistent notes & reminders - all without requiring API keys.
+**S.I.Y.A Enhanced** (Simply Intended Yet Astute Assistant) is a cutting-edge conversational AI system that combines **lightning-fast responses** with **intelligent real-time capabilities**. S.I.Y.A now provides intelligent time-based greetings, real-time data fetching, general web search, activity monitoring, and persistent notes & reminders - all without requiring API keys.
 
 ---
 
@@ -28,7 +28,7 @@
 - 💬 **Natural Conversation**: Friendly, helpful, and concise responses
 - 🎯 **Context Aware**: Remembers conversations and adapts accordingly
 
-### **🆕 NEW: Jarvis-Style Intelligence**
+### **🆕 NEW: Dynamic Intelligence**
 - 🕒 **Intelligent Greetings**: Dynamic time-based greetings with weather & activity summary
   - "Good morning! It's 7:30 AM. The weather in [your city] is 72°F with scattered clouds. You completed 3 tasks yesterday."
 - 📊 **Real-time Data**: Current Bitcoin price, weather, time - no API keys needed
@@ -551,8 +551,6 @@ python siya_enhanced.py
 
 **Meet S.I.Y.A Enhanced - Your Intelligent, Real-time AI Assistant!**
 
-*Fast, intelligent, and now with Jarvis-like capabilities. S.I.Y.A Enhanced combines lightning-fast responses with real-time intelligence, smart suggestions, and complete privacy.* 🚀🤖
+*Fast, intelligent, and agentic and now supports mcp. S.I.Y.A Enhanced combines lightning-fast responses with real-time intelligence, smart suggestions, and complete privacy.* 🚀🤖
 
 ---
-
-**Made with ❤️ for intelligent, fast, and powerful conversations**
