@@ -1,0 +1,100 @@
+{
+  "description": "Custom MCP Servers Configuration",
+  "version": "1.0",
+  "servers": [
+    {
+      "name": "my_custom_server",
+      "type": "external",
+      "url": "http://localhost:8001",
+      "methods": [
+        {
+          "name": "custom_action",
+          "description": "A custom action for my server"
+        }
+      ],
+      "enabled": false,
+      "description": "Example external MCP server configuration"
+    },
+    {
+      "name": "local_python_server",
+      "type": "python_module",
+      "module": "custom_modules.my_server",
+      "class": "MyCustomServer",
+      "methods": [
+        "custom_method_1",
+        "custom_method_2"
+      ],
+      "enabled": false,
+      "description": "Example local Python module server"
+    },
+    {
+      "name": "data_analysis_server",
+      "type": "local",
+      "module": "siya_enhanced",
+      "class": "DataAnalyzer",
+      "methods": [
+        "analyze_data",
+        "generate_report"
+      ],
+      "enabled": false,
+      "description": "Future data analysis capabilities"
+    },
+    {
+      "name": "image_processing_server",
+      "type": "local",
+      "module": "siya_enhanced",
+      "class": "ImageProcessor",
+      "methods": [
+        "process_image",
+        "extract_text"
+      ],
+      "enabled": false,
+      "description": "Future image processing capabilities"
+    },
+    {
+      "name": "demo_custom_server",
+      "type": "python_module",
+      "module": "custom_modules.example_server",
+      "class": "MyCustomServer",
+      "methods": [
+        "analyze_data",
+        "generate_report",
+        "health_check"
+      ],
+      "enabled": true,
+      "description": "Demo custom server for text analysis"
+    },
+    {
+      "name": "demo_custom_server",
+      "type": "python_module",
+      "module": "custom_modules.example_server",
+      "class": "MyCustomServer",
+      "methods": [
+        "analyze_data",
+        "generate_report",
+        "health_check"
+      ],
+      "enabled": false,
+      "description": "Demo custom server for text analysis"
+    }
+  ],
+  "instructions": {
+    "how_to_add": "To add a new MCP server:",
+    "steps": [
+      "1. Add your server configuration to this file",
+      "2. Set 'enabled': true for the server you want to activate",
+      "3. For external servers: provide the URL and methods",
+      "4. For Python modules: provide the module path and class name",
+      "5. Restart siya_enhanced.py to load the new server"
+    ],
+    "server_types": {
+      "external": "HTTP/REST API servers running separately",
+      "local": "Classes already integrated in siya_enhanced.py",
+      "python_module": "Custom Python modules that you create"
+    },
+    "method_format": {
+      "name": "string - Method/function name",
+      "description": "string - What this method does"
+    }
+  }
+}

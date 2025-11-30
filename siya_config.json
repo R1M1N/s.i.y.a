@@ -44,12 +44,80 @@
     "silence_duration": 1.0
   },
   "personality": {
-    "name": "SIYA",
+    "name": "S.I.Y.A Enhanced",
     "full_name": "Simply Intended Yet Astute Assistant",
-    "greeting": "Hello! I'm SIYA, your Simply Intended Yet Astute Assistant. How can I help you today?",
-    "tone": "helpful, concise, and naturally conversational",
-    "response_style": "brief and direct",
-    "personality_traits": ["intelligent", "helpful", "quick-witted", "friendly"]
+    "greeting": "Hello! I'm S.I.Y.A Enhanced, your intelligent AI assistant with real-time capabilities. How can I help you today?",
+    "tone": "intelligent, helpful, and context-aware",
+    "response_style": "comprehensive with real-time capabilities",
+    "personality_traits": ["intelligent", "helpful", "quick-witted", "friendly", "system-aware"]
+  },
+  "enhanced_features": {
+    "intelligent_greeting": true,
+    "real_time_data": true,
+    "general_web_search": true,
+    "activity_monitoring": true,
+    "notes_reminders": true,
+    "smart_suggestions": true,
+    "database_path": "siya_activities.db"
+  },
+  "mcp_servers": {
+    "enabled": true,
+    "auto_discover": true,
+    "dynamic_load": true,
+    "servers": [
+      {
+        "name": "time_server",
+        "type": "local",
+        "module": "siya_enhanced",
+        "class": "RealtimeDataFetcher",
+        "methods": ["get_time_info"],
+        "description": "Time and date information"
+      },
+      {
+        "name": "weather_server", 
+        "type": "local",
+        "module": "siya_enhanced",
+        "class": "RealtimeDataFetcher",
+        "methods": ["get_weather"],
+        "description": "Weather information"
+      },
+      {
+        "name": "bitcoin_server",
+        "type": "local", 
+        "module": "siya_enhanced",
+        "class": "RealtimeDataFetcher",
+        "methods": ["get_bitcoin_price"],
+        "description": "Cryptocurrency prices"
+      },
+      {
+        "name": "web_search_server",
+        "type": "local",
+        "module": "siya_enhanced", 
+        "class": "GeneralWebSearch",
+        "methods": ["search"],
+        "description": "General web search"
+      },
+      {
+        "name": "activity_server",
+        "type": "local",
+        "module": "siya_enhanced",
+        "class": "ActivityMonitor", 
+        "methods": ["log_activity", "get_recent_activities", "generate_work_suggestions"],
+        "description": "Activity tracking and smart suggestions"
+      },
+      {
+        "name": "notes_server",
+        "type": "local",
+        "module": "siya_enhanced",
+        "class": "NotesReminders",
+        "methods": ["add_note", "add_reminder", "get_recent_notes", "get_active_reminders"],
+        "description": "Notes and reminders management"
+      }
+    ]
+  },
+  "custom_mcp_servers": {
+    "enabled": true,
+    "config_file": "configs/mcp_servers.json"
   },
   "optimization": {
     "torch_compile": false,
