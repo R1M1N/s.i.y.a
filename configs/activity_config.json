@@ -1,0 +1,17 @@
+{
+  "activity_types": [
+    "conversation",
+    "data_request",
+    "reminder_set",
+    "search",
+    "system_startup",
+    "mcp_server",
+    "task_completion"
+  ],
+  "retention_days": 30,
+  "auto_cleanup": true,
+  "export_formats": [
+    "json",
+    "csv"
+  ]
+}

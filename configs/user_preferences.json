@@ -1,0 +1,24 @@
+{
+  "name": "User",
+  "location": "New York",
+  "timezone": "America/New_York",
+  "preferred_units": "metric",
+  "interests": [
+    "technology",
+    "AI",
+    "general"
+  ],
+  "reminders": {
+    "default_reminder_time": "1 hour",
+    "recurring_options": [
+      "daily",
+      "weekly",
+      "monthly"
+    ]
+  },
+  "data_preferences": {
+    "default_currency": "USD",
+    "weather_units": "metric",
+    "auto_update_interval": 300
+  }
+}
