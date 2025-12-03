@@ -1,14 +1,14 @@
-# 🤖 S.I.Y.A Enhanced - Simply Intended Yet Astute Assistant
+# 🤖 S.I.Y.A  - Simply Intended Yet Astute Assistant
 
 > **Intelligent AI Assistant with Real-time Intelligence** | *Sub-100ms responses with Iron Man Jarvis-style capabilities*
 
-**S.I.Y.A Enhanced** (Simply Intended Yet Astute Assistant) is a cutting-edge conversational AI system that combines **lightning-fast responses** with **intelligent real-time capabilities**. S.I.Y.A now provides **Jarvis-like intelligence** including intelligent time-based greetings, real-time data fetching, general web search, activity monitoring, and persistent notes & reminders - all without requiring API keys.
+**S.I.Y.A** (Simply Intended Yet Astute Assistant) is a cutting-edge conversational AI system that combines **lightning-fast responses** with **intelligent real-time capabilities**. S.I.Y.A now provides **Jarvis-like intelligence** including intelligent time-based greetings, real-time data fetching, general web search, activity monitoring, and persistent notes & reminders - all without requiring API keys.
 
 ---
 
 ## 🚀 Performance Highlights
 
-### **S.I.Y.A Enhanced Performance**
+### **S.I.Y.A Performance**
 | Component | Response Time | Capability |
 |-----------|---------------|------------|
 | **💬 Conversational AI** | < 100ms | Natural conversation flow |
@@ -200,8 +200,8 @@ You: Show my recent notes
 ## 📁 File Structure
 
 ```
-📦 S.I.Y.A Enhanced Project
-├── 🤖 siya_enhanced.py              # Main enhanced S.I.Y.A system
+📦 S.I.Y.A  Project
+├── 🤖 siya_enhanced.py              # Main  S.I.Y.A system
 ├── 📝 ENHANCED_SIYA_COMPLETE.md     # Complete feature documentation
 ├── 🎓 finetune_siYa.py              # LoRA fine-tuning pipeline
 ├── 🚀 launch_finetuning.py          # Easy fine-tuning launcher
@@ -238,7 +238,7 @@ You: Show my recent notes
     "system_integration": true
   },
   "personality": {
-    "name": "S.I.Y.A Enhanced",
+    "name": "S.I.Y.A",
     "tone": "intelligent, helpful, and context-aware",
     "response_style": "comprehensive with real-time capabilities"
   },
@@ -441,11 +441,11 @@ python -c "import sqlite3; print(sqlite3.sqlite_version)"
 
 ---
 
-## 🏆 Why S.I.Y.A Enhanced?
+## 🏆 Why S.I.Y.A?
 
 ### **Performance Comparison**
 
-| Feature | S.I.Y.A Enhanced | ChatGPT API | Other Assistants |
+| Feature | S.I.Y.A | ChatGPT API | Other Assistants |
 |---------|------------------|-------------|------------------|
 | **Response Time** | **< 100ms** | 2000-5000ms | 500-2000ms |
 | **Real-time Data** | **Yes (Free)** | Limited | Limited |
@@ -470,7 +470,7 @@ python -c "import sqlite3; print(sqlite3.sqlite_version)"
 
 ## 🤝 Contributing
 
-We welcome contributions to make S.I.Y.A Enhanced even better!
+We welcome contributions to make S.I.Y.A even better!
 
 ### **Development Areas**
 - **Performance Optimization**: Speed improvements and resource management
@@ -513,7 +513,7 @@ This project is open source and available under the MIT License.
 
 ## 📞 Support
 
-Need help with S.I.Y.A Enhanced? Here's how to get support:
+Need help with S.I.Y.A ? Here's how to get support:
 
 ### **Common Issues**
 - **Installation Problems**: Check requirements.txt and Python version
@@ -549,7 +549,7 @@ python siya_enhanced.py
 "What's the Bitcoin price right now?"
 ```
 
-**Meet S.I.Y.A Enhanced - Your Intelligent, Real-time AI Assistant!**
+**Meet S.I.Y.A - Your Intelligent, Real-time AI Assistant!**
 
 *Fast, intelligent, and now with Jarvis-like capabilities. S.I.Y.A Enhanced combines lightning-fast responses with real-time intelligence, smart suggestions, and complete privacy.* 🚀🤖
 
